@@ -10,7 +10,7 @@ $(document).ready(function(){
         url: '/todo',
         data: todo,
         success: function(data){
-          //do something with the data via front-end framework
+          // optionally use a front-end framework and not reload
           location.reload();
         }
       });
